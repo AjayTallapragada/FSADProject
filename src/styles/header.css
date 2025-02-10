@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: black;
+  color: white;
+  border-bottom: 4px solid red;
+}
+
+.header-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.nav-links li:hover {
+  color: red;
+}
+
+.cart-button {
+  cursor: pointer;
+}
